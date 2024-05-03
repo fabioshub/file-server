@@ -1,0 +1,7 @@
+services:
+  web-server:
+    build: .
+    ports:
+      - "8125:8125"
+    volumes:
+    - ./files:/home/node/app/files
